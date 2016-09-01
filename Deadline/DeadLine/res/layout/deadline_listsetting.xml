@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:id="@+id/deadline_listsetting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+        <TextView
+            android:id="@+id/deadline_listsetting_thing_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:text="事 件："
+            android:textSize="20dp"
+            android:gravity="center"></TextView>
+        <EditText
+            android:id="@+id/deadline_listsetting_thing_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout 
+    android:id="@+id/deadline_listsetting_data"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+
+        <TextView
+            android:id="@+id/deadline_listsetting_data_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9" 
+            android:text="日 期:"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+       
+        <Button
+            android:id="@+id/deadline_listsetting_data_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"           
+            android:gravity="left|center"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+    <LinearLayout 
+    android:id="@+id/deadline_listsetting_type_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+
+        <TextView
+            android:id="@+id/deadline_listsetting_type_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9" 
+            android:text="类别"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/deadline_listsetting_type_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"></TextView>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/deadline_listsetting_add_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"/>
+
+</LinearLayout>

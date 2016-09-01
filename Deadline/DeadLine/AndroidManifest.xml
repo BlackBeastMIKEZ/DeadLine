@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jikexueyuan.drawerlayoutusing"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/deadlineline"
+        android:label="@string/app_name"
+        android:theme="@style/customtitlebar" >
+        <activity
+            android:name="com.tab2_timer_home.deadline.MainActivity"
+            android:label="@string/app_name" 
+            android:launchMode="singleTask">
+            
+        </activity>
+        <activity android:name="com.tab2_timer_home.deadline.TeamWorkActivity"></activity>
+        <activity android:name="com.viewpager.deadline.WelocomeDeadline">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.viewpager.deadline.GuideDeadline"></activity>
+        <activity 
+            android:name="com.customer_feedback.deadline.CustomerfeedbackActivity"></activity>
+        <activity android:name="com.tab1_deadline_list.deadline.AddDeadlineListActivity"
+            ></activity>
+        <activity android:name="com.tab2_timer_home.deadline.SetDeadlineListActivity"></activity>
+        <receiver 
+            android:name="com.tab2_timer_home.deadline.BootCampNotificationBroadcast">
+            <intent-filter >
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.tab2_timer_home.deadline.NotificationDeadlineService"></service>
+        <service android:name="com.tab2_timer_home.deadline.NotificationConstructorService"></service>
+        <receiver android:name="com.tab2_timer_home.deadline.DeadlineChangeBroadcast">
+            <intent-filter >
+                <action android:name="com.tab2_timer_home.deadline.CHANGE_DATA"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
