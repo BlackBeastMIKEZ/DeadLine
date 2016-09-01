@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+
+        android:layout_margin="5dp"
+        android:id="@+id/fruit_avatar"
+        android:src="@drawable/default_default_head"
+        android:layout_gravity="center_vertical"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="优质火龙果"
+            android:id="@+id/fruit_name"
+            android:layout_margin="5dp"
+            android:textColor="@color/farmer_shop_list_firsttitle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_margin="5dp"
+            android:text="位置：**显**市"
+            android:id="@+id/fruit_location"
+            android:textColor="@color/farmer_shop_list_second_three_title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="数量：200斤"
+            android:id="@+id/fruit_commomprice"
+            android:textColor="@color/farmer_shop_list_second_three_title"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:text="优农批发价：**"
+            android:id="@+id/fruit_myprice"
+            android:textColor="@color/farmer_shop_list_fourtitle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日期：2016-4-15"
+                android:textSize="10sp"
+                android:textColor="#ff999999"
+                android:id="@+id/publish_time"
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout><!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/layout/item_farmer_publish_list.xml -->

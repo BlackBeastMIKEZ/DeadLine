@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@color/farmer_actionbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/base_bg"
+            android:text="发布历史"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_centerInParent="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/farmer_publish"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/farmer_publish_icon"/>
+    </RelativeLayout>
+
+    <mah.farmer.view.CircleRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:AniBackColor="@color/base_bg"
+        app:AniForeColor="@color/farmer_shop_list_back"
+        app:CircleSmaller="6"
+        android:id="@+id/publish_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/farmer_shop_list_back">
+        <ListView
+            android:background="@drawable/farmer_shop_list_selector"
+            android:id="@+id/farmer_publish_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/farmer_shop_list_divider"
+            android:dividerHeight="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            ></ListView>
+    </mah.farmer.view.CircleRefreshLayout>
+
+</LinearLayout>

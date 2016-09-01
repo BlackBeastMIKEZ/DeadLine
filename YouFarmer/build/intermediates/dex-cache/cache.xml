@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-8a42944366a6f99e7b93ba51e819dd4951989770.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\BmobIM_V1.1.9beta_20150820.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="711e2a35a8b6bbd8599cd12dcca14d55225617bd">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\BmobIM_V1.1.9beta_20150820-3aaadb092d07e27c3eb3b87c99acfd6b35df4851.jar" />
+    </item>
+    <item
+        jar="D:\adt\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha2\support-annotations-24.0.0-alpha2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8071e1e6cd07e9253720313d6c14286a7ee424e0">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha2-bd5b50f031f256988e726850d7ebafa8afc55599.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\BmobSDK_V3.4.3_0820.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="257822e98adcdb2617cafb2b818db6c376bc3c7d">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.3_0820-0a60296f7a9c9194e1231c09e503a4170618a0d7.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-06587c8e9b03d74e3548604d5f695c4b866eecf5.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6f3cdc572ddfd37a19f1c1fdb96cda324e8a12a">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\core-23d5fc151612d40fe82319a43484304ea88d95a0.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\photoview-library-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b9000943d77c17d231bf3141a712828f2636c2ea">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\photoview-library-1.2.2-ec627e97692e224ac5072c3129bfbd1bfab075c6.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\libs\internal_impl-24.0.0-alpha2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha2-671c1db7f87cb03201c808397bd051928a08858a.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\locSDK_4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b405c3054e12d913fa5aafb160c294e642dc673">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\locSDK_4.0-eac9fa71deda2e8c18cc7aa6185dda939f753c18.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\BmobIM_V1.1.9beta_20150820.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="711e2a35a8b6bbd8599cd12dcca14d55225617bd">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\BmobIM_V1.1.9beta_20150820-3cbb3355a20a376605b20873d941292252c99a09.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="32ab8bede8cd600f25a5bb3fe15068c81c8910dc">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-c4266f4146c24381e38b55dc487a863d56f367ef.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\core.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6f3cdc572ddfd37a19f1c1fdb96cda324e8a12a">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\core-cbee9edd89cecfcfbcec1610b5b9a988883de1dc.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-93d14f26514d4d8f2c0e47b9eef2bfc47d2eba14.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\volley-e5a42f38d5f68aec4544162a6173b5fa128733ae.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\library.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="07cbe16c3e33aef277b253a8e8f452bda59c58ef">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\library-77344970b6aa1cabd0a6df346f6c7e764b0e0429.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\libs\internal_impl-24.0.0-alpha2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e460bc069dfd21d22770cf2a2370c9021b9c98a2">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha2-1c813499b8cc23a64b071c42c634713e3c18c86d.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\YouFarmer\library\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-add901010eff3928e7e4dda09ed8450682afd089.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-9f307d34902fbdfc8ab5860e10febfb64a595e3a.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\library.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="07cbe16c3e33aef277b253a8e8f452bda59c58ef">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\library-119545b7218a9c71476b18491728d1f2f15b9b71.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\locSDK_4.0_Demo\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5557aacdb13e5bd3176dce77c5842c9c821f63e6">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-50aae302de8fe762e5213b93a995941e149ac8f5.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\YouFarmer\dialoglibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2befcc2db1657653321c4f56df431ae7435816d">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-8f2d370bdffb19a8abfddf3e96b0898741d9c731.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\universal-image-loader-1.9.2_sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2_sources-6b7e6e8175d909df4592412e7a95bbc6c84c9188.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="32ab8bede8cd600f25a5bb3fe15068c81c8910dc">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-e7360675dfd44e0c14e4f7f46cab8586e4c1f8c5.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\locSDK_4.0_Demo\library\unspecified\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-9432a58af4e669687a4c4940b33951e41e10bebc.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\locSDK_4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8b405c3054e12d913fa5aafb160c294e642dc673">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\locSDK_4.0-2028f751282fd1aebefdb0eddd3f876279bb75b8.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-e8bc5040db286b2c0d9e489693adafdfbb443314.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\volley-67282cc27bbbf3f52bd8da06e96f9ce26ac42926.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2f417d93e1f62fd4fb4a2c0f3a4a882dd0ca7843">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-339d0450d93a13c0d780db48120fa7139f08187f.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\locSDK_4.0_Demo\dialoglibrary\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d98aa1c1becf597b1ab91532de25b7454d361a47">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-1f1b255697b5874897bb9cf4b04477414076e43f.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\BmobSDK_V3.4.3_0820.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="257822e98adcdb2617cafb2b818db6c376bc3c7d">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\BmobSDK_V3.4.3_0820-3eca961a22551ea8a5cd6f6663a32e600cd480c8.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-cca8885c6e2bb2001ce0707694ad2151f7a526ae.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\build\intermediates\exploded-aar\YouFarmer\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f0c8aef32b8836102703e944928e1ecb71277d32">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\classes-e7dff16da56286c141d1d199f820f2b266fbab2d.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\photoview-library-1.2.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b9000943d77c17d231bf3141a712828f2636c2ea">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\photoview-library-1.2.2-dea5e974b183173cf8a2e3f8262563b79c0d4e14.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\libs\locSDK_4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8b405c3054e12d913fa5aafb160c294e642dc673">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\locSDK_4.0-2028f751282fd1aebefdb0eddd3f876279bb75b8.jar" />
+    </item>
+    <item
+        jar="F:\quantabei\YouFarmer\app\libs\universal-image-loader-1.9.2_sources.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="F:\quantabei\YouFarmer\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.2_sources-dc7aea452b031bb09e2993db79a29a36dfc5f3cc.jar" />
+    </item>
+    <item
+        jar="D:\locSDK_4.0_Demo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2f417d93e1f62fd4fb4a2c0f3a4a882dd0ca7843">
+        <dex dex="D:\locSDK_4.0_Demo\app\build\intermediates\pre-dexed\debug\classes-a82f183c19fc18d0269eb51d92ac027a2c6c7527.jar" />
+    </item>
+
+</items>

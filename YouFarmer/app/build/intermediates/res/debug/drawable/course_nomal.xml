@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape>
+            <solid android:color="#00000000" />
+            <stroke
+                android:width="0dp"
+                android:color="#00000000" />
+        </shape>
+    </item>
+    <item
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape>
+            <solid android:color="#64ffffff" />
+            <stroke
+                android:width="0dp"
+                android:color="#ffcdc8b9" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/drawable/course_nomal.xml -->

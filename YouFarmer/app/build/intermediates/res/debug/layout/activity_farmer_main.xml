@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/Frame_BottemView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/farmer_bottom"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/FarmerShopBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/FarmerShopBtnImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/farmer_shop_prespress"
+                android:layout_weight="10"/>
+
+            <TextView
+                android:id="@+id/FarmerShopTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="淘农"
+                android:textColor="@color/farmer_press_txt"
+                android:textSize="13dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/FarmerInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/FarmerInfoBtnImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/farmer_info_normalnormal"
+                android:layout_weight="10"/>
+
+            <TextView
+                android:id="@+id/FarmerInfoTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="信息大厅"
+                android:textColor="@color/farmer_normal_txt"
+                android:layout_weight="1"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/FarmerPublishBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/FarmerPublishBtnImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/farmer_publish_normalnormal"
+                android:layout_weight="10"/>
+
+            <TextView
+                android:id="@+id/FarmerPublishTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布"
+                android:textColor="@color/farmer_normal_txt"
+                android:layout_weight="1"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/FarmerMyInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/FarmerMyInfoBtnImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/farmer_myinfo_normalnormal"
+                android:layout_weight="10"/>
+
+            <TextView
+                android:id="@+id/FarmerMyInfoTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的优农"
+                android:textColor="@color/farmer_normal_txt"
+                android:textSize="13dp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/MyBottemMoreBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_vertical|center_horizontal"-->
+            <!--android:orientation="vertical" >-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/MyBottemMoreImg"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/share"-->
+                <!--android:layout_weight="10"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/MyBottemMoreTxt"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="更多"-->
+                <!--android:textColor="@color/base_bg"-->
+                <!--android:textSize="13dp"-->
+                <!--android:layout_weight="1"/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/FramePager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/Frame_BottemView" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout><!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/layout/activity_farmer_main.xml -->

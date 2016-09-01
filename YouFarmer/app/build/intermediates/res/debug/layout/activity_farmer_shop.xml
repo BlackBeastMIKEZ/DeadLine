@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/farmer_shop_kind">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@color/farmer_actionbar">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/farmer_back"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/location_local"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/base_bg"
+            android:id="@+id/location_name"
+            android:text="广州"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/farmer_back"/>
+        <ImageView
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/shop_search"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/search"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shop_shop_shop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/farmer_shop_line_line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/farmer_shop_kind"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/farmer_kinds_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/farmer_shop_list_second_three_title"
+
+                    android:text="分类"
+                    android:layout_gravity="center_vertical"/>
+                <ImageView
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:src="@drawable/register_bottom_arrow"
+
+                    android:id="@+id/farmer_kind_arrow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shu"
+                    android:layout_gravity="center_vertical"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/local"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/farmer_sort_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/farmer_shop_list_second_three_title"
+                    android:layout_gravity="center_vertical"
+
+                    android:text="智能排序"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/register_bottom_arrow"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/farmer_sort_arrow"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/farmer_shop_list_divider"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/farmerlist_back"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:id="@+id/farmer_kindandsort_detail_layout"
+             >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/farmerlist_back1"
+
+                android:visibility="gone"
+                android:layout_gravity="left"
+                android:id="@+id/farmer_kind_detail_layout"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="蔬菜"
+                    android:textSize="20sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:id="@+id/shucai"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/farmer_shop_list_firsttitle"
+                   />
+
+                </RelativeLayout>
+                <TextView
+                    android:text="水果"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:id="@+id/shuiguo"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/farmer_shop_list_firsttitle"/>
+            </LinearLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/triangle"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/translate_arrow"
+                    android:layout_alignParentRight="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:id="@+id/farmer_kind_detail_more_layout"
+                android:background="@color/farmerlist_back2"
+                android:layout_marginRight="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="全部"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/all"
+                    android:background="@drawable/course_info_blue"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:text="瓜类"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gua"
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:text="豆类"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dou"
+                    android:visibility="gone"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:text="叶菜类"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/yecai"
+
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="根茎类"
+                    android:visibility="gone"
+                    android:id="@+id/genjin"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:text="茄果类"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/qieguo"
+
+
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+                <TextView
+                    android:text="花菜类"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/huacai"
+                    android:visibility="gone"
+
+                    android:padding="5dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/farmer_shop_list_second_three_title"/>
+
+            </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/blank_layout"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:id="@+id/farmer_sort_details_layout"
+                    android:background="@color/farmerlist_back2"
+
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="价格"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:id="@+id/jiage"
+                        android:background="@drawable/course_info_blue"
+                        android:textColor="@color/farmer_shop_list_second_three_title"/>
+                    <TextView
+                        android:text="销量"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/xiaoliang"
+                        android:padding="5dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp"
+                        android:textColor="@color/farmer_shop_list_second_three_title"/>
+
+                </LinearLayout>
+                </LinearLayout>
+
+        </LinearLayout>
+        <mah.farmer.view.CircleRefreshLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:AniBackColor="@color/base_bg"
+            app:AniForeColor="@color/farmer_shop_list_back"
+            app:CircleSmaller="6"
+            android:id="@+id/shop_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ListView
+                android:background="@drawable/farmer_shop_list_selector"
+                android:id="@+id/farmer_shop_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/farmer_shop_list_divider"
+                android:dividerHeight="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                ></ListView>
+        </mah.farmer.view.CircleRefreshLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+<!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/layout/activity_farmer_shop.xml -->

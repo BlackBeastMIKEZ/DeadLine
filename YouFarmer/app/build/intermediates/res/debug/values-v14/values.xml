@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/F:/quantabei/YouFarmer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="MyAnotherTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+    <style name="MyBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/WeChatActionBar</item>
+        <item name="android:itemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:itemTextAppearance">@style/WeChatActionBarOverflow</item>
+        <item name="android:actionOverflowButtonStyle">@style/WeChatActionButtonOverflow</item>
+    </style>
+    <!-- From: file:/F:/quantabei/YouFarmer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="Platform.AppCompat" parent="Platform.V14.AppCompat"/>
+    <style name="Platform.AppCompat.Light" parent="Platform.V14.AppCompat.Light"/>
+    <style name="Platform.V14.AppCompat" parent="Platform.V11.AppCompat">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light" parent="Platform.V11.AppCompat.Light">
+        <item name="android:actionModeSelectAllDrawable">?actionModeSelectAllDrawable</item>
+
+        <item name="android:listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.StatusBar.EventContent.Info"/>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item name="android:textSize">@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time"/>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="WeChatActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#303537</item>
+        <item name="android:titleTextStyle">@style/WeChatActionBarTitleText</item>
+    </style>
+    <style name="WeChatActionBarOverflow" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="WeChatActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="WeChatActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/actionbar_more_icon</item>
+    </style>
+    <style name="basicText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="courseTableText">
+        <item name="android:textColor">#4b3b85</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="errorReportItemText">
+        <item name="android:textColor">#b8a5a5</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="statusListItemText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+</resources>

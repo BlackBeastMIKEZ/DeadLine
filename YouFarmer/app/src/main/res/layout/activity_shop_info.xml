@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/farmer_shop_list_back"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/add_shopping_cart"
+        android:background="@drawable/course_info_green"
+        android:layout_alignParentBottom="true"
+        >
+        <ImageView
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:src="@drawable/shopping_cart"
+            android:layout_margin="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/base_bg"
+            android:text="立即购买"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+<android.support.design.widget.CoordinatorLayout
+
+    android:id="@+id/annonce.main.coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded"
+    android:layout_above="@id/add_shopping_cart"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/flexible.example.appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/flexible_example_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:title="@string/flexible_title"
+            app:expandedTitleMarginBottom="94dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:expandedTitleTextAppearance="@style/CollapsingTextAppearance.Inverse"
+            app:contentScrim="?colorPrimary"
+            >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/london_flat"
+
+                android:id="@+id/productinfo_avatar"
+                android:scaleType="centerCrop"
+                />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/flexible.example.toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@null"
+                app:layout_collapseMode="pin"
+                style="@style/ToolBarWithNavigationBack"
+                />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/farmer_shop_list_back"
+        app:behavior_overlapTop="78dp"
+
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/flexible.example.cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="@color/farmer_shop_list_back"
+                app:cardElevation="4dp"
+                android:layout_margin="8dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="：15元/斤"
+
+                        android:id="@+id/product_danjia"
+                        android:textSize="20sp"
+                        android:textAppearance="@style/TextAppearance.Header"
+                        style="@style/TextComponent.ItemRow"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="8dp"
+                        android:textSize="16sp"
+                        android:id="@+id/product_leibie"
+                        android:text="类别: 水果  当地时令水果"
+                        android:layout_marginBottom="20dp"
+                        />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-light"
+                            android:lineSpacingExtra="8dp"
+                            android:textSize="16sp"
+                            android:id="@+id/product_xiaoliang"
+                            android:text="销量：360斤"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="@color/farmer_shop_list_back"
+                app:cardElevation="4dp"
+                android:layout_margin="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="8dp"
+                        android:textSize="16sp"
+                        android:text="商品详情："
+                        android:layout_marginBottom="5dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="8dp"
+                        android:textSize="16sp"
+                        android:id="@+id/productinfo_desc"
+                        android:text="@string/lorem"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:contentPaddingBottom="16dp"
+                app:contentPaddingLeft="16dp"
+                app:contentPaddingRight="16dp"
+                app:cardCornerRadius="4dp"
+                app:cardBackgroundColor="@color/farmer_shop_list_back"
+                app:cardElevation="4dp"
+                android:layout_margin="8dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="8dp"
+                        android:textSize="16sp"
+                        android:text="卖家："
+                        android:layout_marginBottom="5dp"
+                        />
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+                     <ImageView
+                         android:layout_width="40dip"
+                         android:layout_height="40dip"
+                         android:layout_margin="5dp"
+                         android:id="@+id/supplier_avatar"
+                         android:src="@drawable/default_default_head"/>
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical"
+                         android:layout_margin="5dp">
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:fontFamily="sans-serif-light"
+                             android:lineSpacingExtra="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/supplier_name"
+                             android:text="新时代的农民"
+                             android:layout_marginBottom="5dp"
+                             />
+                         <TextView
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:fontFamily="sans-serif-light"
+                             android:lineSpacingExtra="8dp"
+                             android:textSize="16sp"
+                             android:id="@+id/supplier_location"
+                             android:text="位置：广东省广州市"
+
+                             />
+                         </LinearLayout>
+
+                     </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/flexible_example_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="32dp"
+
+        android:elevation="8dp"
+        android:src="@drawable/tel"
+        app:layout_anchor="@id/flexible.example.cardview"
+        app:layout_anchorGravity="top|right|end"
+        tools:ignore="RtlHardcoded"
+        />
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

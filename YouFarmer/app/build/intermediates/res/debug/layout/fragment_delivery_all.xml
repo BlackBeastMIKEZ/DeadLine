@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/layout_all"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/didnt_find_bill"
+                android:layout_gravity="center"
+                />
+            </LinearLayout>
+
+    <mah.farmer.view.CircleRefreshLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:AniBackColor="@color/base_bg"
+        app:AniForeColor="@color/farmer_shop_list_back"
+        app:CircleSmaller="6"
+        android:id="@+id/delivery_all_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <ListView
+            android:background="@drawable/farmer_shop_list_selector"
+            android:id="@+id/delivery_all_supply_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/farmer_shop_list_divider"
+            android:dividerHeight="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            ></ListView>
+    </mah.farmer.view.CircleRefreshLayout>
+
+    </RelativeLayout>
+</LinearLayout><!-- From: file:/F:/quantabei/YouFarmer/app/src/main/res/layout/fragment_delivery_all.xml -->
